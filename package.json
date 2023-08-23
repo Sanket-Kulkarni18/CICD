@@ -1,1 +1,23 @@
-{}
+{
+    "name": "my-cicd-project",
+    "version": "1.0.0",
+    "description": "A sample project for CI/CD",
+    "main": "src/index.js",
+    "scripts": {
+      "start": "node src/index.js",
+      "build": "echo 'Build step: No build required'",
+      "test": "echo 'Test step: No tests defined'",
+      "lint": "eslint src/**/*.js",
+      "prettier": "prettier --write src/**/*.js",
+      "precommit": "lint-staged"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "",
+    "devDependencies": {
+      "eslint": "^7.32.0",
+      "lint-staged": "^11.0.0",
+      "prettier": "^2.4.1"
+    }
+  }
+  
